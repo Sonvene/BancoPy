@@ -58,6 +58,19 @@ Bem-vindo ao sistema de caixa eletrônico Geek-Bank! Este programa permite que v
 - `models/conta.py`: Define a classe `Conta` para contas bancárias.
 - `utils/`: Diretório contendo funções utilitárias e métodos auxiliares.
 
+
+## Estrutura do Repositório
+   - O repositório está organizado em diferentes módulos e utilitários para suportar o sistema de caixa eletrônico Geek-Bank.
+
+**Models**
+- `cliente.py`: Este módulo define a classe Cliente, responsável por representar informações relacionadas a um cliente bancário, como nome, e-mail, CPF e data de nascimento. Ele também inclui métodos para formatar e manipular datas.
+
+- `conta.py`: Neste arquivo, a classe Conta é definida para representar uma conta bancária associada a um cliente. Ele gerencia o número da conta, saldo, limite e operações como depósitos, saques e transferências entre contas.
+
+**Utils**
+- `helper.py`: Este módulo fornece funções utilitárias para formatação de dados, como converter datas entre strings e objetos date, e formatar valores monetários para exibição em formato de moeda brasileira (R$).
+
+
 ## Executando o Programa
 
 ```bash
